@@ -1,0 +1,1409 @@
+{
+  "meta": {
+    "version": "2026-v1-multi-framework",
+    "scoring": {
+      "Fail": 0,
+      "Partial": 50,
+      "Pass": 100,
+      "NotApplicable": null
+    },
+    "default_weight": 1
+  },
+  "domains": [
+    {
+      "id": "vendor_governance",
+      "name": {
+        "ro": "Guvernanta furnizorilor",
+        "en": "Vendor Governance"
+      },
+      "questions": [
+        {
+          "id": "tprm_g_01",
+          "text": {
+            "ro": "Exista o politica de Third-Party Risk Management aprobata?",
+            "en": "Is there an approved Third-Party Risk Management policy?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Vendor Risk Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_governance",
+          "recommendation_key": "tprm_g_01",
+          "recommendation": {
+            "ro": "Definiti si aprobati politica TPRM cu scope, roluri si criterii de evaluare.",
+            "en": "Define and approve a TPRM policy with scope, roles and assessment criteria."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_g_02",
+          "text": {
+            "ro": "Exista o metodologie de clasificare a furnizorilor?",
+            "en": "Is there a supplier classification methodology?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_governance",
+          "recommendation_key": "tprm_g_02",
+          "recommendation": {
+            "ro": "Implementati clasificare a furnizorilor dupa criticitate, date accesate si dependenta operationala.",
+            "en": "Implement supplier classification based on criticality, accessed data and operational dependency."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_g_03",
+          "text": {
+            "ro": "Exista roluri clare pentru owner, procurement, legal si security?",
+            "en": "Are roles clear for owner, procurement, legal and security?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_governance",
+          "recommendation_key": "tprm_g_03",
+          "recommendation": {
+            "ro": "Definiti responsabilitatile pentru owner, procurement, legal, security si management.",
+            "en": "Define responsibilities for owner, procurement, legal, security and management."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_g_04",
+          "text": {
+            "ro": "Exista proces de exceptii si acceptare a riscului pentru furnizori?",
+            "en": "Is there an exception and risk acceptance process for suppliers?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_governance",
+          "recommendation_key": "tprm_g_04",
+          "recommendation": {
+            "ro": "Formalizati exceptiile, risk acceptance si aprobarea managementului pentru furnizori.",
+            "en": "Formalize exceptions, risk acceptance and management approval for suppliers."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_g_05",
+          "text": {
+            "ro": "Exista raportare periodica catre management privind furnizorii critici?",
+            "en": "Is there periodic reporting to management on critical suppliers?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_governance",
+          "recommendation_key": "tprm_g_05",
+          "recommendation": {
+            "ro": "Instituiti raportare periodica asupra furnizorilor critici, riscurilor si remediilor.",
+            "en": "Establish periodic reporting on critical suppliers, risks and remediations."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "inventory_tiering",
+      "name": {
+        "ro": "Inventar si clasificare",
+        "en": "Inventory and Tiering"
+      },
+      "questions": [
+        {
+          "id": "tprm_i_01",
+          "text": {
+            "ro": "Exista inventar complet al furnizorilor si serviciilor prestate?",
+            "en": "Is there a complete inventory of suppliers and services provided?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_inventory",
+          "recommendation_key": "tprm_i_01",
+          "recommendation": {
+            "ro": "Mentineti un inventar complet al furnizorilor, serviciilor si sistemelor afectate.",
+            "en": "Maintain a complete inventory of suppliers, services and impacted systems."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_i_02",
+          "text": {
+            "ro": "Furnizorii sunt clasificati dupa criticitate si acces?",
+            "en": "Are suppliers classified by criticality and access?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_inventory",
+          "recommendation_key": "tprm_i_02",
+          "recommendation": {
+            "ro": "Clasificati furnizorii dupa criticitate, acces la date si impact operational.",
+            "en": "Classify suppliers by criticality, data access and operational impact."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_i_03",
+          "text": {
+            "ro": "Sunt identificate datele, sistemele si procesele afectate de fiecare furnizor?",
+            "en": "Are the data, systems and processes affected by each supplier identified?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_inventory",
+          "recommendation_key": "tprm_i_03",
+          "recommendation": {
+            "ro": "Mapati datele, sistemele si procesele deservite de fiecare furnizor relevant.",
+            "en": "Map the data, systems and processes served by each relevant supplier."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_i_04",
+          "text": {
+            "ro": "Exista identificare a subcontractorilor / fourth parties?",
+            "en": "Are subcontractors / fourth parties identified?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "fourth_party_risk",
+          "recommendation_key": "tprm_i_04",
+          "recommendation": {
+            "ro": "Extindeti inventarul pentru a include fourth parties si dependintele relevante.",
+            "en": "Extend the inventory to include fourth parties and relevant dependencies."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_i_05",
+          "text": {
+            "ro": "Exista evidenta locatiei datelor si jurisdictiilor implicate?",
+            "en": "Is there a record of data locations and jurisdictions involved?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "data_residency",
+          "recommendation_key": "tprm_i_05",
+          "recommendation": {
+            "ro": "Documentati locatia datelor si jurisdictiile pentru fiecare serviciu externalizat.",
+            "en": "Document data location and jurisdictions for each outsourced service."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "due_diligence",
+      "name": {
+        "ro": "Due diligence",
+        "en": "Due Diligence"
+      },
+      "questions": [
+        {
+          "id": "tprm_d_01",
+          "text": {
+            "ro": "Exista due diligence initial inainte de onboarding?",
+            "en": "Is initial due diligence performed before onboarding?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "due_diligence",
+          "recommendation_key": "tprm_d_01",
+          "recommendation": {
+            "ro": "Introduceti due diligence obligatoriu inainte de onboarding-ul furnizorilor critici.",
+            "en": "Introduce mandatory due diligence before onboarding critical suppliers."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_d_02",
+          "text": {
+            "ro": "Sunt evaluate controalele de securitate ale furnizorilor?",
+            "en": "Are supplier security controls assessed?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "due_diligence",
+          "recommendation_key": "tprm_d_02",
+          "recommendation": {
+            "ro": "Evaluati controalele de securitate prin chestionare, evidenta si validari suplimentare.",
+            "en": "Assess security controls through questionnaires, evidence and additional validation."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_d_03",
+          "text": {
+            "ro": "Sunt verificate certificarile si atestarile relevante?",
+            "en": "Are relevant certifications and attestations verified?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "due_diligence",
+          "recommendation_key": "tprm_d_03",
+          "recommendation": {
+            "ro": "Solicitati si validati certificari, rapoarte SOC si atestari relevante.",
+            "en": "Request and validate certifications, SOC reports and relevant attestations."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_d_04",
+          "text": {
+            "ro": "Exista scoring de risc pentru furnizori?",
+            "en": "Is there a risk scoring mechanism for suppliers?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "due_diligence",
+          "recommendation_key": "tprm_d_04",
+          "recommendation": {
+            "ro": "Implementati scoring de risc pentru furnizori pe baza criticitatii si maturitatii controalelor.",
+            "en": "Implement supplier risk scoring based on criticality and control maturity."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_d_05",
+          "text": {
+            "ro": "Rezultatele due diligence sunt revizuite si aprobate?",
+            "en": "Are due diligence results reviewed and approved?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "due_diligence",
+          "recommendation_key": "tprm_d_05",
+          "recommendation": {
+            "ro": "Formalizati aprobarea rezultatelor due diligence de catre stakeholderii relevanti.",
+            "en": "Formalize approval of due diligence results by relevant stakeholders."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "contracts_access",
+      "name": {
+        "ro": "Contracte si acces",
+        "en": "Contracts and Access"
+      },
+      "questions": [
+        {
+          "id": "tprm_c_01",
+          "text": {
+            "ro": "Contractele includ cerinte minime de securitate?",
+            "en": "Do contracts include minimum security requirements?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "contract_security",
+          "recommendation_key": "tprm_c_01",
+          "recommendation": {
+            "ro": "Introduceti cerinte minime de securitate si controale obligatorii in contracte.",
+            "en": "Introduce minimum security requirements and mandatory controls into contracts."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_c_02",
+          "text": {
+            "ro": "Contractele includ drept de audit si acces la evidenta?",
+            "en": "Do contracts include audit rights and access to evidence?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "contract_security",
+          "recommendation_key": "tprm_c_02",
+          "recommendation": {
+            "ro": "Asigurati drept de audit, solicitare de evidenta si reevaluare periodica in contract.",
+            "en": "Ensure audit rights, evidence requests and periodic reassessment in the contract."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_c_03",
+          "text": {
+            "ro": "Exista clauze de notificare a incidentelor si breaselor?",
+            "en": "Are there incident and breach notification clauses?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "business_impact": "Critical",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "contract_security",
+          "recommendation_key": "tprm_c_03",
+          "recommendation": {
+            "ro": "Introduceti termene si obligatii clare pentru notificarea incidentelor si breaselor.",
+            "en": "Introduce clear timelines and obligations for incident and breach notification."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_c_04",
+          "text": {
+            "ro": "Accesul furnizorilor este limitat si aprobat formal?",
+            "en": "Is supplier access limited and formally approved?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_access",
+          "recommendation_key": "tprm_c_04",
+          "recommendation": {
+            "ro": "Aplicati least privilege, aprobare formala si expirare pentru accesul furnizorilor.",
+            "en": "Apply least privilege, formal approval and expiration for supplier access."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_c_05",
+          "text": {
+            "ro": "Accesul furnizorilor este protejat cu MFA si logging?",
+            "en": "Is supplier access protected with MFA and logging?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_access",
+          "recommendation_key": "enable_mfa",
+          "recommendation": {
+            "ro": "Impuneti MFA si logging pentru accesul tuturor furnizorilor la sisteme interne.",
+            "en": "Enforce MFA and logging for all supplier access to internal systems."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "monitoring_exit",
+      "name": {
+        "ro": "Monitorizare continua si exit",
+        "en": "Continuous Monitoring and Exit"
+      },
+      "questions": [
+        {
+          "id": "tprm_m_01",
+          "text": {
+            "ro": "Furnizorii critici sunt reevaluati periodic?",
+            "en": "Are critical suppliers periodically reassessed?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "continuous_monitoring",
+          "recommendation_key": "tprm_m_01",
+          "recommendation": {
+            "ro": "Stabiliti reevaluare periodica pentru furnizorii critici bazata pe risc.",
+            "en": "Establish risk-based periodic reassessment for critical suppliers."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_m_02",
+          "text": {
+            "ro": "Sunt urmarite incidentele, bresele si schimbarile relevante la furnizori?",
+            "en": "Are incidents, breaches and relevant supplier changes tracked?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "continuous_monitoring",
+          "recommendation_key": "tprm_m_02",
+          "recommendation": {
+            "ro": "Monitorizati incidentele, schimbarile de control si evenimentele semnificative ale furnizorilor.",
+            "en": "Monitor incidents, control changes and significant supplier events."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_m_03",
+          "text": {
+            "ro": "Exista plan de remediere pentru gaps identificate la furnizori?",
+            "en": "Is there a remediation plan for gaps identified at suppliers?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "continuous_monitoring",
+          "recommendation_key": "tprm_m_03",
+          "recommendation": {
+            "ro": "Urmariti remedierea gap-urilor furnizorilor prin planuri de actiune si termene.",
+            "en": "Track supplier gap remediation through action plans and deadlines."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_m_04",
+          "text": {
+            "ro": "Exista plan de exit si offboarding pentru furnizorii critici?",
+            "en": "Is there an exit and offboarding plan for critical suppliers?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "offboarding",
+          "recommendation_key": "tprm_m_04",
+          "recommendation": {
+            "ro": "Definiti plan de exit, returnare/stergere date si revocare acces pentru furnizori.",
+            "en": "Define exit plans, data return/deletion and access revocation for suppliers."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "tprm_m_05",
+          "text": {
+            "ro": "Exista testare sau validare a planurilor de continuitate ale furnizorilor?",
+            "en": "Is there testing or validation of supplier continuity plans?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "supplier_resilience",
+          "recommendation_key": "tprm_m_05",
+          "recommendation": {
+            "ro": "Solicitati si validati planurile de continuitate pentru furnizorii critici.",
+            "en": "Request and validate continuity plans for critical suppliers."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    }
+  ]
+}

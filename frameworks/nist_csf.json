@@ -1,0 +1,1656 @@
+{
+  "meta": {
+    "version": "2026-v1-multi-framework",
+    "scoring": {
+      "Fail": 0,
+      "Partial": 50,
+      "Pass": 100,
+      "NotApplicable": null
+    },
+    "default_weight": 1
+  },
+  "domains": [
+    {
+      "id": "govern",
+      "name": {
+        "ro": "Guvernare",
+        "en": "Govern"
+      },
+      "questions": [
+        {
+          "id": "nist_gv_01",
+          "text": {
+            "ro": "Conducerea defineste directia de cyber security si apetitul la risc?",
+            "en": "Does leadership define cybersecurity direction and risk appetite?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Board / CISO",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "recommendation_key": "nist_gv_01",
+          "recommendation": {
+            "ro": "Definiti apetitul la risc si obiectivele de cyber security la nivel executiv.",
+            "en": "Define risk appetite and cybersecurity objectives at executive level."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [
+            "6.1.2"
+          ],
+          "nist_csf": [
+            "GV.RM-01",
+            "GV.OV-01"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_gv_02",
+          "text": {
+            "ro": "Exista politici si standarde de securitate aprobate?",
+            "en": "Are security policies and standards approved?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "recommendation_key": "nist_gv_02",
+          "recommendation": {
+            "ro": "Aprobati politici, standarde si proceduri aliniate la cadrul de control.",
+            "en": "Approve policies, standards and procedures aligned to the control framework."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [
+            "A.5.1"
+          ],
+          "nist_csf": [
+            "GV.PO-01",
+            "GV.PO-02"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_gv_03",
+          "text": {
+            "ro": "Sunt rolurile de risc si securitate definite clar?",
+            "en": "Are risk and security roles clearly defined?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "recommendation_key": "nist_gv_03",
+          "recommendation": {
+            "ro": "Clarificati rolurile de guvernanta, risc, securitate si responsabilitate operationala.",
+            "en": "Clarify governance, risk, security and operational accountability roles."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [
+            "A.5.2"
+          ],
+          "nist_csf": [
+            "GV.RR-01",
+            "GV.RR-02"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_gv_04",
+          "text": {
+            "ro": "Exista supraveghere a performantei si conformitatii?",
+            "en": "Is performance and conformance oversight in place?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "recommendation_key": "nist_gv_04",
+          "recommendation": {
+            "ro": "Definiti KPI/KRI si management review pentru performanta si conformitate.",
+            "en": "Define KPI/KRI and management review for performance and conformance."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "GV.OV-02",
+            "GV.OV-03"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_gv_05",
+          "text": {
+            "ro": "Sunt riscurile din lantul de aprovizionare integrate in guvernanta?",
+            "en": "Are supply chain risks integrated into governance?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "third_party_risk",
+          "recommendation_key": "nist_gv_05",
+          "recommendation": {
+            "ro": "Integrați riscurile third party in procesele de guvernanta si raportare.",
+            "en": "Integrate third-party risks into governance and reporting processes."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "GV.SC-01",
+            "GV.SC-02"
+          ],
+          "cis_control": [],
+          "nis2": [
+            "Supply chain security"
+          ]
+        },
+        {
+          "id": "nist_gv_06",
+          "text": {
+            "ro": "Exista mecanisme de exceptii si acceptare a riscului?",
+            "en": "Are there mechanisms for exceptions and risk acceptance?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "recommendation_key": "nist_gv_06",
+          "recommendation": {
+            "ro": "Formalizati exceptiile, acceptarea riscului si termenul de revalidare.",
+            "en": "Formalize exceptions, risk acceptance and revalidation timelines."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "GV.RM-02"
+          ],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "identify",
+      "name": {
+        "ro": "Identificare",
+        "en": "Identify"
+      },
+      "questions": [
+        {
+          "id": "nist_id_01",
+          "text": {
+            "ro": "Exista inventar complet al activelor hardware, software si cloud?",
+            "en": "Is there a complete inventory of hardware, software and cloud assets?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "asset_management",
+          "recommendation_key": "nist_id_01",
+          "recommendation": {
+            "ro": "Implementati un inventar centralizat pentru active hardware, software si cloud.",
+            "en": "Implement a centralized inventory for hardware, software and cloud assets."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [
+            "A.5.9"
+          ],
+          "nist_csf": [
+            "ID.AM-01",
+            "ID.AM-02"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_id_02",
+          "text": {
+            "ro": "Sunt procesele critice si dependintele lor identificate?",
+            "en": "Are critical processes and dependencies identified?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "business_context",
+          "recommendation_key": "nist_id_02",
+          "recommendation": {
+            "ro": "Realizati BIA si mapati dependintele tehnologice si third-party.",
+            "en": "Perform a BIA and map technology and third-party dependencies."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "ID.BE-03",
+            "ID.BE-04"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_id_03",
+          "text": {
+            "ro": "Datele sunt clasificate si localizate?",
+            "en": "Is data classified and located?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "data_governance",
+          "recommendation_key": "nist_id_03",
+          "recommendation": {
+            "ro": "Clasificati datele si mentineti evidenta locatiilor si fluxurilor de date.",
+            "en": "Classify data and maintain records of locations and data flows."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [
+            "A.5.12"
+          ],
+          "nist_csf": [
+            "ID.AM-03"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_id_04",
+          "text": {
+            "ro": "Sunt evaluate vulnerabilitatile si amenintarile relevante?",
+            "en": "Are relevant vulnerabilities and threats assessed?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "business_impact": "Critical",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "recommendation_key": "nist_id_04",
+          "recommendation": {
+            "ro": "Implementati threat and vulnerability management bazat pe risc.",
+            "en": "Implement risk-based threat and vulnerability management."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "ID.RA-01",
+            "ID.RA-05"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_id_05",
+          "text": {
+            "ro": "Exista evaluari periodice de risc cibernetic?",
+            "en": "Are periodic cybersecurity risk assessments performed?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "business_impact": "Critical",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "recommendation_key": "formal_risk_assessment",
+          "recommendation": {
+            "ro": "Instituiti evaluari periodice de risc pentru procese si sisteme critice.",
+            "en": "Establish periodic risk assessments for critical processes and systems."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "ID.RA-06"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_id_06",
+          "text": {
+            "ro": "Sunt cerintele legale, contractuale si de business identificate?",
+            "en": "Are legal, contractual and business requirements identified?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "compliance",
+          "recommendation_key": "nist_id_06",
+          "recommendation": {
+            "ro": "Mapati cerintele legale si contractuale la controalele de securitate.",
+            "en": "Map legal and contractual requirements to security controls."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "ID.GV-03"
+          ],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "protect",
+      "name": {
+        "ro": "Protectie",
+        "en": "Protect"
+      },
+      "questions": [
+        {
+          "id": "nist_pr_01",
+          "text": {
+            "ro": "MFA este activ pentru accesul la resurse critice?",
+            "en": "Is MFA enabled for access to critical resources?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "business_impact": "Critical",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "authentication",
+          "recommendation_key": "enable_mfa",
+          "recommendation": {
+            "ro": "Activati MFA pentru accesul la resurse critice, remote si privilegiate.",
+            "en": "Enable MFA for access to critical, remote and privileged resources."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [
+            "A.8.5"
+          ],
+          "nist_csf": [
+            "PR.AA-03"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_pr_02",
+          "text": {
+            "ro": "Accesul este bazat pe least privilege si recertificat?",
+            "en": "Is access based on least privilege and recertified?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "access_control",
+          "recommendation_key": "nist_pr_02",
+          "recommendation": {
+            "ro": "Implementati least privilege, RBAC si recertificare periodica a accesului.",
+            "en": "Implement least privilege, RBAC and periodic access recertification."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "PR.AA-01",
+            "PR.AA-05"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_pr_03",
+          "text": {
+            "ro": "Sunt datele sensibile criptate in tranzit si la stocare?",
+            "en": "Is sensitive data encrypted in transit and at rest?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "data_protection",
+          "recommendation_key": "nist_pr_03",
+          "recommendation": {
+            "ro": "Aplicati criptare pentru date sensibile in tranzit si la stocare.",
+            "en": "Apply encryption for sensitive data in transit and at rest."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "PR.DS-01",
+            "PR.DS-02"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_pr_04",
+          "text": {
+            "ro": "Exista awareness training pentru utilizatori?",
+            "en": "Is awareness training provided to users?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "awareness",
+          "recommendation_key": "nist_pr_04",
+          "recommendation": {
+            "ro": "Implementati program de awareness periodic si simulare phishing.",
+            "en": "Implement a periodic awareness program and phishing simulation."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "PR.AT-01",
+            "PR.AT-02"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_pr_05",
+          "text": {
+            "ro": "Sunt vulnerabilitatile si patch-urile gestionate prin proces?",
+            "en": "Are vulnerabilities and patches managed through a process?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "vulnerability_management",
+          "recommendation_key": "nist_pr_05",
+          "recommendation": {
+            "ro": "Definiti proces de scanare, prioritizare si remediere a vulnerabilitatilor.",
+            "en": "Define a process for scanning, prioritizing and remediating vulnerabilities."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "PR.IP-12"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_pr_06",
+          "text": {
+            "ro": "Exista protectii pentru endpoint-uri si email?",
+            "en": "Are protections in place for endpoints and email?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "endpoint_security",
+          "recommendation_key": "nist_pr_06",
+          "recommendation": {
+            "ro": "Implementati EDR, filtrare email si protectie anti-phishing.",
+            "en": "Implement EDR, email filtering and anti-phishing protection."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "PR.PS-03"
+          ],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "detect",
+      "name": {
+        "ro": "Detectie",
+        "en": "Detect"
+      },
+      "questions": [
+        {
+          "id": "nist_de_01",
+          "text": {
+            "ro": "Evenimentele de securitate sunt monitorizate centralizat?",
+            "en": "Are security events centrally monitored?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "monitoring",
+          "recommendation_key": "nist_de_01",
+          "recommendation": {
+            "ro": "Centralizati evenimentele de securitate in SIEM si definiti use cases relevante.",
+            "en": "Centralize security events in a SIEM and define relevant use cases."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "DE.AE-02",
+            "DE.CM-01"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_de_02",
+          "text": {
+            "ro": "Exista alerte pentru activitati anormale si acces privilegiat?",
+            "en": "Are alerts in place for anomalous activity and privileged access?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "monitoring",
+          "recommendation_key": "nist_de_02",
+          "recommendation": {
+            "ro": "Definiti alerting pentru activitati anormale si actiuni privilegiate.",
+            "en": "Define alerting for anomalous activity and privileged actions."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "DE.AE-01",
+            "DE.CM-03"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_de_03",
+          "text": {
+            "ro": "Sunt baseline-urile comportamentale si tehnice definite?",
+            "en": "Are behavioral and technical baselines defined?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "monitoring",
+          "recommendation_key": "nist_de_03",
+          "recommendation": {
+            "ro": "Stabiliti baseline-uri pentru trafic, autentificare si comportament endpoint.",
+            "en": "Establish baselines for traffic, authentication and endpoint behavior."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "DE.AE-03"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_de_04",
+          "text": {
+            "ro": "Sunt log-urile protejate impotriva alterarii?",
+            "en": "Are logs protected against tampering?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "logging",
+          "recommendation_key": "nist_de_04",
+          "recommendation": {
+            "ro": "Asigurati integritatea log-urilor si control strict de acces la acestea.",
+            "en": "Ensure log integrity and strict access control to them."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "DE.CM-07"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_de_05",
+          "text": {
+            "ro": "Exista monitorizare continua a expunerii externe?",
+            "en": "Is there continuous monitoring of external exposure?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "attack_surface",
+          "recommendation_key": "nist_de_05",
+          "recommendation": {
+            "ro": "Implementati ASM/EASM pentru monitorizarea suprafetei externe de atac.",
+            "en": "Implement ASM/EASM to monitor external attack surface."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "DE.CM-08"
+          ],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "respond_recover",
+      "name": {
+        "ro": "Raspuns si recuperare",
+        "en": "Respond & Recover"
+      },
+      "questions": [
+        {
+          "id": "nist_rr_01",
+          "text": {
+            "ro": "Exista un plan de raspuns la incidente documentat si testat?",
+            "en": "Is there a documented and tested incident response plan?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "business_impact": "Critical",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "incident_response",
+          "recommendation_key": "nist_rr_01",
+          "recommendation": {
+            "ro": "Definiti si testati un plan de raspuns la incidente cu playbook-uri specifice.",
+            "en": "Define and test an incident response plan with specific playbooks."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "RS.RP-01"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_rr_02",
+          "text": {
+            "ro": "Exista coordonare si comunicare in timpul incidentelor?",
+            "en": "Is there coordination and communication during incidents?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "incident_response",
+          "recommendation_key": "nist_rr_02",
+          "recommendation": {
+            "ro": "Formalizati comunicarea interna, externa si catre management in timpul incidentelor.",
+            "en": "Formalize internal, external and management communication during incidents."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "RS.CO-02",
+            "RS.CO-03"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_rr_03",
+          "text": {
+            "ro": "Se face analiza post-incident si actualizare a controalelor?",
+            "en": "Is post-incident analysis performed and controls updated?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "incident_response",
+          "recommendation_key": "nist_rr_03",
+          "recommendation": {
+            "ro": "Efectuati post-incident review si actualizati controalele, playbook-urile si trainingul.",
+            "en": "Perform post-incident review and update controls, playbooks and training."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "RS.IM-01",
+            "RS.IM-02"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_rr_04",
+          "text": {
+            "ro": "Exista backup-uri si planuri de restaurare validate?",
+            "en": "Are backups and restoration plans validated?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "recovery",
+          "recommendation_key": "nist_rr_04",
+          "recommendation": {
+            "ro": "Testati restaurarea backup-urilor si validati dependintele aplicatiilor critice.",
+            "en": "Test backup restoration and validate critical application dependencies."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "RC.RP-01"
+          ],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "nist_rr_05",
+          "text": {
+            "ro": "Sunt lectiile invatate integrate in imbunatatirea programului?",
+            "en": "Are lessons learned integrated into program improvement?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "continual_improvement",
+          "recommendation_key": "nist_rr_05",
+          "recommendation": {
+            "ro": "Integrati lectiile invatate in planuri, riscuri si roadmap de remediere.",
+            "en": "Integrate lessons learned into plans, risks and remediation roadmap."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [
+            "RC.IM-01"
+          ],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    }
+  ]
+}

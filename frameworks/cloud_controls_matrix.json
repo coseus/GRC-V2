@@ -1,0 +1,1411 @@
+{
+  "meta": {
+    "version": "2026-v1-multi-framework",
+    "scoring": {
+      "Fail": 0,
+      "Partial": 50,
+      "Pass": 100,
+      "NotApplicable": null
+    },
+    "default_weight": 1
+  },
+  "domains": [
+    {
+      "id": "cloud_governance",
+      "name": {
+        "ro": "Guvernanta cloud",
+        "en": "Cloud Governance"
+      },
+      "questions": [
+        {
+          "id": "ccm_g_01",
+          "text": {
+            "ro": "Exista un model clar de shared responsibility pentru serviciile cloud?",
+            "en": "Is there a clear shared responsibility model for cloud services?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Azure",
+            "AWS",
+            "GCP"
+          ],
+          "control_family": "cloud_governance",
+          "recommendation_key": "ccm_g_01",
+          "recommendation": {
+            "ro": "Documentati modelul de shared responsibility pentru fiecare serviciu cloud utilizat.",
+            "en": "Document the shared responsibility model for each cloud service in use."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_g_02",
+          "text": {
+            "ro": "Exista politici de securitate specifice cloud?",
+            "en": "Are cloud-specific security policies in place?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_governance",
+          "recommendation_key": "ccm_g_02",
+          "recommendation": {
+            "ro": "Definiti politici specifice pentru identitate cloud, configuratii si date.",
+            "en": "Define policies specific to cloud identity, configurations and data."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_g_03",
+          "text": {
+            "ro": "Exista inventory pentru conturi, subscriptions si servicii cloud?",
+            "en": "Is there an inventory for cloud accounts, subscriptions and services?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_asset_management",
+          "recommendation_key": "ccm_g_03",
+          "recommendation": {
+            "ro": "Mentineti inventar complet pentru subscriptions, resource groups si servicii cloud.",
+            "en": "Maintain a complete inventory for subscriptions, resource groups and cloud services."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_g_04",
+          "text": {
+            "ro": "Exista baseline-uri de configurare pentru cloud?",
+            "en": "Are configuration baselines defined for cloud?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_configuration",
+          "recommendation_key": "ccm_g_04",
+          "recommendation": {
+            "ro": "Definiti baseline-uri pentru configuratii cloud si monitorizati drift-ul.",
+            "en": "Define cloud configuration baselines and monitor drift."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_g_05",
+          "text": {
+            "ro": "Sunt evaluate periodic riscurile si expunerile cloud?",
+            "en": "Are cloud risks and exposures periodically assessed?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_risk",
+          "recommendation_key": "ccm_g_05",
+          "recommendation": {
+            "ro": "Implementati evaluari periodice ale expunerii si riscurilor cloud.",
+            "en": "Implement periodic assessments of cloud exposure and risks."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "iam",
+      "name": {
+        "ro": "Identitate si acces cloud",
+        "en": "Cloud Identity & Access"
+      },
+      "questions": [
+        {
+          "id": "ccm_i_01",
+          "text": {
+            "ro": "MFA este activ pentru administratori cloud?",
+            "en": "Is MFA enabled for cloud administrators?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "business_impact": "Critical",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_iam",
+          "recommendation_key": "enable_mfa",
+          "recommendation": {
+            "ro": "Aplicati MFA obligatoriu pentru toti administratorii cloud si conturile break-glass.",
+            "en": "Enforce MFA for all cloud administrators and break-glass accounts."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_i_02",
+          "text": {
+            "ro": "RBAC este folosit in locul accesului excesiv?",
+            "en": "Is RBAC used instead of excessive access?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_iam",
+          "recommendation_key": "ccm_i_02",
+          "recommendation": {
+            "ro": "Implementati RBAC si revizuire periodica pentru permisiunile cloud.",
+            "en": "Implement RBAC and periodic review of cloud permissions."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_i_03",
+          "text": {
+            "ro": "Exista conturi de urgenta controlate si monitorizate?",
+            "en": "Are emergency accounts controlled and monitored?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_iam",
+          "recommendation_key": "ccm_i_03",
+          "recommendation": {
+            "ro": "Controlati conturile de urgenta prin proceduri, alerting si utilizare justificata.",
+            "en": "Control emergency accounts through procedures, alerting and justified use."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_i_04",
+          "text": {
+            "ro": "Accesul aplicatiilor si identitatilor gestionate este controlat?",
+            "en": "Is application access and managed identities controlled?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_iam",
+          "recommendation_key": "ccm_i_04",
+          "recommendation": {
+            "ro": "Limitati permisiunile pentru service principals si managed identities.",
+            "en": "Limit permissions for service principals and managed identities."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_i_05",
+          "text": {
+            "ro": "Conditional Access / equivalent este implementat?",
+            "en": "Is Conditional Access / equivalent implemented?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_iam",
+          "recommendation_key": "ccm_i_05",
+          "recommendation": {
+            "ro": "Implementati Conditional Access pentru locatie, risc, device compliance si rol.",
+            "en": "Implement Conditional Access for location, risk, device compliance and role."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "data_security",
+      "name": {
+        "ro": "Securitatea datelor in cloud",
+        "en": "Cloud Data Security"
+      },
+      "questions": [
+        {
+          "id": "ccm_d_01",
+          "text": {
+            "ro": "Datele sensibile din cloud sunt clasificate?",
+            "en": "Is sensitive cloud data classified?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_data_security",
+          "recommendation_key": "ccm_d_01",
+          "recommendation": {
+            "ro": "Clasificati datele cloud si etichetati datele sensibile si reglementate.",
+            "en": "Classify cloud data and label sensitive and regulated data."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_d_02",
+          "text": {
+            "ro": "Datele sunt criptate at rest si in transit?",
+            "en": "Is data encrypted at rest and in transit?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_data_security",
+          "recommendation_key": "ccm_d_02",
+          "recommendation": {
+            "ro": "Aplicati criptare pentru datele cloud la stocare si in tranzit.",
+            "en": "Apply encryption for cloud data at rest and in transit."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_d_03",
+          "text": {
+            "ro": "Cheile de criptare sunt gestionate adecvat?",
+            "en": "Are encryption keys properly managed?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "key_management",
+          "recommendation_key": "ccm_d_03",
+          "recommendation": {
+            "ro": "Gestionati cheile prin KMS/HSM, separare de roluri si rotatie periodica.",
+            "en": "Manage keys through KMS/HSM, segregation of duties and periodic rotation."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_d_04",
+          "text": {
+            "ro": "Exista politici DLP pentru SaaS si cloud storage?",
+            "en": "Are DLP policies in place for SaaS and cloud storage?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_data_security",
+          "recommendation_key": "ccm_d_04",
+          "recommendation": {
+            "ro": "Implementati DLP pentru SaaS, email si cloud storage.",
+            "en": "Implement DLP for SaaS, email and cloud storage."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_d_05",
+          "text": {
+            "ro": "Backup-urile si retention sunt definite pentru datele cloud?",
+            "en": "Are backups and retention defined for cloud data?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "backup_recovery",
+          "recommendation_key": "ccm_d_05",
+          "recommendation": {
+            "ro": "Definiti backup si retention pentru datele si workload-urile cloud.",
+            "en": "Define backup and retention for cloud data and workloads."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "logging_monitoring",
+      "name": {
+        "ro": "Logging si monitorizare cloud",
+        "en": "Cloud Logging & Monitoring"
+      },
+      "questions": [
+        {
+          "id": "ccm_l_01",
+          "text": {
+            "ro": "Audit logging este activ pentru serviciile cloud critice?",
+            "en": "Is audit logging enabled for critical cloud services?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_monitoring",
+          "recommendation_key": "ccm_l_01",
+          "recommendation": {
+            "ro": "Activati audit logging pentru subscriptions, identities si servicii critice.",
+            "en": "Enable audit logging for subscriptions, identities and critical services."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_l_02",
+          "text": {
+            "ro": "Log-urile cloud sunt centralizate si corelate?",
+            "en": "Are cloud logs centralized and correlated?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_monitoring",
+          "recommendation_key": "ccm_l_02",
+          "recommendation": {
+            "ro": "Centralizati log-urile cloud in SIEM si corelati cu surse on-prem.",
+            "en": "Centralize cloud logs in the SIEM and correlate with on-prem sources."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_l_03",
+          "text": {
+            "ro": "Exista alerting pentru schimbari de configuratie si acces privilegiat?",
+            "en": "Is alerting in place for configuration changes and privileged access?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_monitoring",
+          "recommendation_key": "ccm_l_03",
+          "recommendation": {
+            "ro": "Definiti alerting pentru schimbari critice de configuratie si acces privilegiat.",
+            "en": "Define alerting for critical configuration changes and privileged access."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_l_04",
+          "text": {
+            "ro": "Exista monitorizare a costurilor neobisnuite si a utilizarii anormale?",
+            "en": "Is there monitoring of unusual cost spikes and abnormal usage?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_monitoring",
+          "recommendation_key": "ccm_l_04",
+          "recommendation": {
+            "ro": "Monitorizati anomaliile de consum si activitate pentru detectarea abuzului sau compromisului.",
+            "en": "Monitor consumption and activity anomalies to detect abuse or compromise."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_l_05",
+          "text": {
+            "ro": "Exista CSPM / Defender for Cloud / equivalent?",
+            "en": "Is CSPM / Defender for Cloud / equivalent deployed?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_posture",
+          "recommendation_key": "ccm_l_05",
+          "recommendation": {
+            "ro": "Implementati CSPM pentru detectarea configuratiilor neconforme si expunerilor.",
+            "en": "Implement CSPM to detect misconfigurations and exposures."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "workload_appsec",
+      "name": {
+        "ro": "Workload si application security",
+        "en": "Workload & Application Security"
+      },
+      "questions": [
+        {
+          "id": "ccm_w_01",
+          "text": {
+            "ro": "VM-urile si workload-urile cloud sunt patch-uite?",
+            "en": "Are cloud VMs and workloads patched?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_workload_security",
+          "recommendation_key": "ccm_w_01",
+          "recommendation": {
+            "ro": "Definiti patch management pentru VM-uri, containere si imagini cloud.",
+            "en": "Define patch management for VMs, containers and cloud images."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_w_02",
+          "text": {
+            "ro": "Containerele sunt scanate pentru vulnerabilitati?",
+            "en": "Are containers scanned for vulnerabilities?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "container_security",
+          "recommendation_key": "ccm_w_02",
+          "recommendation": {
+            "ro": "Scanati imaginile de containere si blocati imaginile cu riscuri critice.",
+            "en": "Scan container images and block images with critical risks."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_w_03",
+          "text": {
+            "ro": "Secret management este folosit pentru aplicatii cloud?",
+            "en": "Is secret management used for cloud applications?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "secret_management",
+          "recommendation_key": "use_secret_vault",
+          "recommendation": {
+            "ro": "Mutati secretele in vault si eliminati credentialele hardcodate.",
+            "en": "Move secrets into a vault and eliminate hardcoded credentials."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_w_04",
+          "text": {
+            "ro": "Exista WAF / API protection pentru aplicatiile expuse?",
+            "en": "Is WAF / API protection deployed for exposed applications?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "application_security",
+          "recommendation_key": "ccm_w_04",
+          "recommendation": {
+            "ro": "Implementati WAF si protectie API pentru aplicatiile publice.",
+            "en": "Implement WAF and API protection for public-facing applications."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "ccm_w_05",
+          "text": {
+            "ro": "Exista segmentare si restrictii de retea pentru workload-uri?",
+            "en": "Is network segmentation and restriction in place for workloads?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "Cloud"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "cloud_network_security",
+          "recommendation_key": "ccm_w_05",
+          "recommendation": {
+            "ro": "Aplicati NSG/Security Groups, private endpoints si segmentare pentru workload-uri.",
+            "en": "Apply NSGs/Security Groups, private endpoints and segmentation for workloads."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    }
+  ]
+}

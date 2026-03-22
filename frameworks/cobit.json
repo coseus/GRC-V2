@@ -1,0 +1,1130 @@
+{
+  "meta": {
+    "version": "2026-v1-multi-framework",
+    "scoring": {
+      "Fail": 0,
+      "Partial": 50,
+      "Pass": 100,
+      "NotApplicable": null
+    },
+    "default_weight": 1
+  },
+  "domains": [
+    {
+      "id": "edm",
+      "name": {
+        "ro": "Evaluare, directionare si monitorizare",
+        "en": "Evaluate, Direct and Monitor"
+      },
+      "questions": [
+        {
+          "id": "cobit_edm_01",
+          "text": {
+            "ro": "Exista obiective de guvernanta IT si cyber aprobate de conducere?",
+            "en": "Are IT and cyber governance objectives approved by leadership?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Board / CIO",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "it_governance",
+          "recommendation_key": "cobit_edm_01",
+          "recommendation": {
+            "ro": "Definiti obiective de guvernanta IT/cyber si raportare executiva periodica.",
+            "en": "Define IT/cyber governance objectives and periodic executive reporting."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_edm_02",
+          "text": {
+            "ro": "Conducerea monitorizeaza performanta si conformitatea IT?",
+            "en": "Does leadership monitor IT performance and conformance?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "it_governance",
+          "recommendation_key": "cobit_edm_02",
+          "recommendation": {
+            "ro": "Stabiliti KPI/KRI si review periodic pentru performanta si conformitatea IT.",
+            "en": "Establish KPI/KRI and periodic review for IT performance and conformance."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_edm_03",
+          "text": {
+            "ro": "Exista mecanisme de alocare a responsabilitatii pentru riscuri IT?",
+            "en": "Are there accountability mechanisms for IT risks?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "it_governance",
+          "recommendation_key": "cobit_edm_03",
+          "recommendation": {
+            "ro": "Atribuiti ownership pentru riscuri, controale si decizii privind acceptarea riscului.",
+            "en": "Assign ownership for risks, controls and risk acceptance decisions."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_edm_04",
+          "text": {
+            "ro": "Investitiile in securitate sunt prioritizate dupa risc si valoare?",
+            "en": "Are security investments prioritized by risk and value?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "portfolio_governance",
+          "recommendation_key": "cobit_edm_04",
+          "recommendation": {
+            "ro": "Prioritizati investitiile pe baza riscului, impactului si valorii de business.",
+            "en": "Prioritize investments based on risk, impact and business value."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_edm_05",
+          "text": {
+            "ro": "Exista transparenta privind starea controalelor si remedierea?",
+            "en": "Is there transparency on control status and remediation?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "assurance",
+          "recommendation_key": "cobit_edm_05",
+          "recommendation": {
+            "ro": "Instituiti dashboard-uri de controale si remediation tracking pentru management.",
+            "en": "Establish control dashboards and remediation tracking for management."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "apo",
+      "name": {
+        "ro": "Aliniere, planificare si organizare",
+        "en": "Align, Plan and Organize"
+      },
+      "questions": [
+        {
+          "id": "cobit_apo_01",
+          "text": {
+            "ro": "Exista strategie IT si cyber aliniata cu business-ul?",
+            "en": "Is there an IT and cyber strategy aligned to the business?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "strategy",
+          "recommendation_key": "cobit_apo_01",
+          "recommendation": {
+            "ro": "Definiti strategie IT/cyber aliniata la obiectivele de business si risc.",
+            "en": "Define IT/cyber strategy aligned to business and risk objectives."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_apo_02",
+          "text": {
+            "ro": "Exista arhitectura, standarde si principii tehnice documentate?",
+            "en": "Are architecture, standards and technical principles documented?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "architecture",
+          "recommendation_key": "cobit_apo_02",
+          "recommendation": {
+            "ro": "Documentati arhitectura target, standardele tehnice si exceptiile aprobate.",
+            "en": "Document target architecture, technical standards and approved exceptions."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_apo_03",
+          "text": {
+            "ro": "Exista management formal al riscului IT?",
+            "en": "Is there formal IT risk management?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "recommendation_key": "cobit_apo_03",
+          "recommendation": {
+            "ro": "Implementati management formal al riscului IT integrat cu enterprise risk.",
+            "en": "Implement formal IT risk management integrated with enterprise risk."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_apo_04",
+          "text": {
+            "ro": "Exista management al vendorilor si serviciilor externalizate?",
+            "en": "Is vendor and outsourced service management in place?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "vendor_management",
+          "recommendation_key": "cobit_apo_04",
+          "recommendation": {
+            "ro": "Definiti proces de guvernanta pentru furnizori, SLA-uri si evaluari periodice.",
+            "en": "Define governance processes for suppliers, SLAs and periodic reviews."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_apo_05",
+          "text": {
+            "ro": "Capabilitatile si competentele echipei IT/cyber sunt gestionate?",
+            "en": "Are IT/cyber team capabilities and skills managed?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "people_capability",
+          "recommendation_key": "cobit_apo_05",
+          "recommendation": {
+            "ro": "Creati plan de competente, training si dezvoltare pentru echipele IT/cyber.",
+            "en": "Create a capability, training and development plan for IT/cyber teams."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "bai",
+      "name": {
+        "ro": "Constructie, achizitie si implementare",
+        "en": "Build, Acquire and Implement"
+      },
+      "questions": [
+        {
+          "id": "cobit_bai_01",
+          "text": {
+            "ro": "Exista change management formal pentru sisteme si aplicatii?",
+            "en": "Is formal change management in place for systems and applications?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "change_management",
+          "recommendation_key": "cobit_bai_01",
+          "recommendation": {
+            "ro": "Instituiti change management cu aprobare, testare, segregare si rollback.",
+            "en": "Establish change management with approval, testing, segregation and rollback."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_bai_02",
+          "text": {
+            "ro": "Sunt proiectele si initiativele IT guvernate cu criterii clare?",
+            "en": "Are IT projects and initiatives governed with clear criteria?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "project_governance",
+          "recommendation_key": "cobit_bai_02",
+          "recommendation": {
+            "ro": "Aplicati guvernanta proiectelor IT cu milestone-uri, riscuri si control al scope-ului.",
+            "en": "Apply IT project governance with milestones, risks and scope control."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_bai_03",
+          "text": {
+            "ro": "Exista controale de securitate integrate in SDLC?",
+            "en": "Are security controls integrated into the SDLC?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "sdlc",
+          "recommendation_key": "cobit_bai_03",
+          "recommendation": {
+            "ro": "Integrati secure SDLC, code review, SAST/DAST si managementul vulnerabilitatilor aplicative.",
+            "en": "Integrate secure SDLC, code review, SAST/DAST and application vulnerability management."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_bai_04",
+          "text": {
+            "ro": "Exista testare si aprobare formala inainte de go-live?",
+            "en": "Is there formal testing and approval before go-live?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "release_management",
+          "recommendation_key": "cobit_bai_04",
+          "recommendation": {
+            "ro": "Definiti criterii de go-live, testare functionala, de securitate si aprobare finala.",
+            "en": "Define go-live criteria, functional/security testing and final approval."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_bai_05",
+          "text": {
+            "ro": "Configuratiile si activele sunt gestionate prin CMDB / inventar?",
+            "en": "Are configurations and assets managed through CMDB / inventory?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "configuration_management",
+          "recommendation_key": "cobit_bai_05",
+          "recommendation": {
+            "ro": "Implementati CMDB/inventar si reconciliere pentru configuratii critice.",
+            "en": "Implement CMDB/inventory and reconciliation for critical configurations."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    },
+    {
+      "id": "dss_mea",
+      "name": {
+        "ro": "Livrare, servicii, suport si monitorizare",
+        "en": "Deliver, Service, Support & Monitor"
+      },
+      "questions": [
+        {
+          "id": "cobit_dss_01",
+          "text": {
+            "ro": "Exista procese de operare si suport documentate?",
+            "en": "Are operational and support processes documented?"
+          },
+          "answer_type": "score",
+          "weight": 6,
+          "risk": "Medium",
+          "business_impact": "Medium",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "service_management",
+          "recommendation_key": "cobit_dss_01",
+          "recommendation": {
+            "ro": "Documentati procesele de suport, operare si escalare pentru serviciile critice.",
+            "en": "Document support, operations and escalation processes for critical services."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_dss_02",
+          "text": {
+            "ro": "Exista monitorizare a serviciilor, evenimentelor si incidentelor?",
+            "en": "Is there monitoring of services, events and incidents?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "monitoring",
+          "recommendation_key": "cobit_dss_02",
+          "recommendation": {
+            "ro": "Implementati monitorizare operationala si de securitate pentru servicii si incidente.",
+            "en": "Implement operational and security monitoring for services and incidents."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_dss_03",
+          "text": {
+            "ro": "Exista management formal al incidentelor si problemelor?",
+            "en": "Is there formal incident and problem management?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "service_management",
+          "recommendation_key": "cobit_dss_03",
+          "recommendation": {
+            "ro": "Instituiti procese de incident/problem management cu analiza cauza radacina.",
+            "en": "Establish incident/problem management with root cause analysis."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_dss_04",
+          "text": {
+            "ro": "Exista continuitate pentru serviciile IT critice?",
+            "en": "Is there continuity for critical IT services?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "business_continuity",
+          "recommendation_key": "cobit_dss_04",
+          "recommendation": {
+            "ro": "Definiti si testati planuri de continuitate pentru serviciile IT critice.",
+            "en": "Define and test continuity plans for critical IT services."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        },
+        {
+          "id": "cobit_mea_01",
+          "text": {
+            "ro": "Exista evaluari periodice ale controalelor si conformitatii?",
+            "en": "Are controls and compliance periodically assessed?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Medium",
+          "default_owner_role": "Information Security Manager",
+          "applies_to": [
+            "IT"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "assurance",
+          "recommendation_key": "cobit_mea_01",
+          "recommendation": {
+            "ro": "Planificati evaluari periodice ale controalelor, conformitatii si eficacitatii.",
+            "en": "Plan periodic assessments of controls, compliance and effectiveness."
+          },
+          "evidence_examples": {
+            "ro": [
+              "Politica / procedura aprobata",
+              "Raport sau export din tool",
+              "Screenshot de configurare"
+            ],
+            "en": [
+              "Approved policy / procedure",
+              "Tool report or export",
+              "Configuration screenshot"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura",
+              "Evidenta operationala"
+            ],
+            "en": [
+              "Policy",
+              "Procedure",
+              "Operational evidence"
+            ]
+          },
+          "iso27001": [],
+          "nist_csf": [],
+          "cis_control": [],
+          "nis2": []
+        }
+      ]
+    }
+  ]
+}

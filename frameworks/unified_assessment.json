@@ -1,0 +1,2114 @@
+{
+  "meta": {
+    "framework": "Unified Assessment",
+    "version": "v1.0",
+    "scoring": {
+      "Fail": 0,
+      "Partial": 50,
+      "Pass": 100,
+      "NotApplicable": null
+    },
+    "default_weight": 1
+  },
+  "domains": [
+    {
+      "id": "governance",
+      "name": {
+        "ro": "Guvernanta",
+        "en": "Governance"
+      },
+      "questions": [
+        {
+          "id": "governance_01",
+          "text": {
+            "ro": "Guvernanta intrebare 1?",
+            "en": "Governance question 1?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Guvernanta 1",
+            "en": "Remediation for Governance 1"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P0",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "governance_key_1",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "governance_02",
+          "text": {
+            "ro": "Guvernanta intrebare 2?",
+            "en": "Governance question 2?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "control_type": "sector_best_practice",
+          "recommendation": {
+            "ro": "Remediere pentru Guvernanta 2",
+            "en": "Remediation for Governance 2"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "governance_key_2",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "governance_03",
+          "text": {
+            "ro": "Guvernanta intrebare 3?",
+            "en": "Governance question 3?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Guvernanta 3",
+            "en": "Remediation for Governance 3"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "governance_key_3",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "governance_04",
+          "text": {
+            "ro": "Guvernanta intrebare 4?",
+            "en": "Governance question 4?"
+          },
+          "answer_type": "score",
+          "weight": 10,
+          "risk": "High",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Guvernanta 4",
+            "en": "Remediation for Governance 4"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "High",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "governance_key_4",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "governance_05",
+          "text": {
+            "ro": "Guvernanta intrebare 5?",
+            "en": "Governance question 5?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Low",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Guvernanta 5",
+            "en": "Remediation for Governance 5"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "governance",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "governance_key_5",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risk_management",
+      "name": {
+        "ro": "Managementul riscului",
+        "en": "Risk Management"
+      },
+      "questions": [
+        {
+          "id": "risk_management_01",
+          "text": {
+            "ro": "Managementul riscului intrebare 1?",
+            "en": "Risk Management question 1?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul riscului 1",
+            "en": "Remediation for Risk Management 1"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P0",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "risk_management_key_1",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "risk_management_02",
+          "text": {
+            "ro": "Managementul riscului intrebare 2?",
+            "en": "Risk Management question 2?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "control_type": "sector_best_practice",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul riscului 2",
+            "en": "Remediation for Risk Management 2"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "risk_management_key_2",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "risk_management_03",
+          "text": {
+            "ro": "Managementul riscului intrebare 3?",
+            "en": "Risk Management question 3?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul riscului 3",
+            "en": "Remediation for Risk Management 3"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "risk_management_key_3",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "risk_management_04",
+          "text": {
+            "ro": "Managementul riscului intrebare 4?",
+            "en": "Risk Management question 4?"
+          },
+          "answer_type": "score",
+          "weight": 10,
+          "risk": "High",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul riscului 4",
+            "en": "Remediation for Risk Management 4"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "High",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "risk_management_key_4",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "risk_management_05",
+          "text": {
+            "ro": "Managementul riscului intrebare 5?",
+            "en": "Risk Management question 5?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Low",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul riscului 5",
+            "en": "Remediation for Risk Management 5"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "risk_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "risk_management_key_5",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asset_management",
+      "name": {
+        "ro": "Managementul activelor",
+        "en": "Asset Management"
+      },
+      "questions": [
+        {
+          "id": "asset_management_01",
+          "text": {
+            "ro": "Managementul activelor intrebare 1?",
+            "en": "Asset Management question 1?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul activelor 1",
+            "en": "Remediation for Asset Management 1"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P0",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "asset_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "asset_management_key_1",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "asset_management_02",
+          "text": {
+            "ro": "Managementul activelor intrebare 2?",
+            "en": "Asset Management question 2?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "control_type": "sector_best_practice",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul activelor 2",
+            "en": "Remediation for Asset Management 2"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "asset_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "asset_management_key_2",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "asset_management_03",
+          "text": {
+            "ro": "Managementul activelor intrebare 3?",
+            "en": "Asset Management question 3?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul activelor 3",
+            "en": "Remediation for Asset Management 3"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "asset_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "asset_management_key_3",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "asset_management_04",
+          "text": {
+            "ro": "Managementul activelor intrebare 4?",
+            "en": "Asset Management question 4?"
+          },
+          "answer_type": "score",
+          "weight": 10,
+          "risk": "High",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul activelor 4",
+            "en": "Remediation for Asset Management 4"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "High",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "asset_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "asset_management_key_4",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "asset_management_05",
+          "text": {
+            "ro": "Managementul activelor intrebare 5?",
+            "en": "Asset Management question 5?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Low",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Managementul activelor 5",
+            "en": "Remediation for Asset Management 5"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "asset_management",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "asset_management_key_5",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ot_ics_security",
+      "name": {
+        "ro": "Securitate OT / ICS",
+        "en": "OT / ICS Security"
+      },
+      "questions": [
+        {
+          "id": "ot_ics_security_01",
+          "text": {
+            "ro": "Securitate OT / ICS intrebare 1?",
+            "en": "OT / ICS Security question 1?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Securitate OT / ICS 1",
+            "en": "Remediation for OT / ICS Security 1"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P0",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "OT"
+          ],
+          "scope": [
+            "Corporate",
+            "Plant"
+          ],
+          "control_family": "ot_ics_security",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "ot_ics_security_key_1",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "ot_ics_security_02",
+          "text": {
+            "ro": "Securitate OT / ICS intrebare 2?",
+            "en": "OT / ICS Security question 2?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "control_type": "sector_best_practice",
+          "recommendation": {
+            "ro": "Remediere pentru Securitate OT / ICS 2",
+            "en": "Remediation for OT / ICS Security 2"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "OT"
+          ],
+          "scope": [
+            "Corporate",
+            "Plant"
+          ],
+          "control_family": "ot_ics_security",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "ot_ics_security_key_2",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "ot_ics_security_03",
+          "text": {
+            "ro": "Securitate OT / ICS intrebare 3?",
+            "en": "OT / ICS Security question 3?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Securitate OT / ICS 3",
+            "en": "Remediation for OT / ICS Security 3"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "OT"
+          ],
+          "scope": [
+            "Corporate",
+            "Plant"
+          ],
+          "control_family": "ot_ics_security",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "ot_ics_security_key_3",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "ot_ics_security_04",
+          "text": {
+            "ro": "Securitate OT / ICS intrebare 4?",
+            "en": "OT / ICS Security question 4?"
+          },
+          "answer_type": "score",
+          "weight": 10,
+          "risk": "High",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Securitate OT / ICS 4",
+            "en": "Remediation for OT / ICS Security 4"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "High",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "OT"
+          ],
+          "scope": [
+            "Corporate",
+            "Plant"
+          ],
+          "control_family": "ot_ics_security",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "ot_ics_security_key_4",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "ot_ics_security_05",
+          "text": {
+            "ro": "Securitate OT / ICS intrebare 5?",
+            "en": "OT / ICS Security question 5?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Low",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Securitate OT / ICS 5",
+            "en": "Remediation for OT / ICS Security 5"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "OT"
+          ],
+          "scope": [
+            "Corporate",
+            "Plant"
+          ],
+          "control_family": "ot_ics_security",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "ot_ics_security_key_5",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incident_response",
+      "name": {
+        "ro": "Raspuns la incidente",
+        "en": "Incident Response"
+      },
+      "questions": [
+        {
+          "id": "incident_response_01",
+          "text": {
+            "ro": "Raspuns la incidente intrebare 1?",
+            "en": "Incident Response question 1?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Raspuns la incidente 1",
+            "en": "Remediation for Incident Response 1"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P0",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "incident_response",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "incident_response_key_1",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "incident_response_02",
+          "text": {
+            "ro": "Raspuns la incidente intrebare 2?",
+            "en": "Incident Response question 2?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "control_type": "sector_best_practice",
+          "recommendation": {
+            "ro": "Remediere pentru Raspuns la incidente 2",
+            "en": "Remediation for Incident Response 2"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "incident_response",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "incident_response_key_2",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "incident_response_03",
+          "text": {
+            "ro": "Raspuns la incidente intrebare 3?",
+            "en": "Incident Response question 3?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Raspuns la incidente 3",
+            "en": "Remediation for Incident Response 3"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "incident_response",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "incident_response_key_3",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "incident_response_04",
+          "text": {
+            "ro": "Raspuns la incidente intrebare 4?",
+            "en": "Incident Response question 4?"
+          },
+          "answer_type": "score",
+          "weight": 10,
+          "risk": "High",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Raspuns la incidente 4",
+            "en": "Remediation for Incident Response 4"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "High",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "incident_response",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "incident_response_key_4",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "incident_response_05",
+          "text": {
+            "ro": "Raspuns la incidente intrebare 5?",
+            "en": "Incident Response question 5?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Low",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Raspuns la incidente 5",
+            "en": "Remediation for Incident Response 5"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "incident_response",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "incident_response_key_5",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business_continuity",
+      "name": {
+        "ro": "Continuitate si rezilienta",
+        "en": "Business Continuity and Resilience"
+      },
+      "questions": [
+        {
+          "id": "business_continuity_01",
+          "text": {
+            "ro": "Continuitate si rezilienta intrebare 1?",
+            "en": "Business Continuity and Resilience question 1?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Critical",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Continuitate si rezilienta 1",
+            "en": "Remediation for Business Continuity and Resilience 1"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P0",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "business_continuity",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "business_continuity_key_1",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "business_continuity_02",
+          "text": {
+            "ro": "Continuitate si rezilienta intrebare 2?",
+            "en": "Business Continuity and Resilience question 2?"
+          },
+          "answer_type": "score",
+          "weight": 8,
+          "risk": "High",
+          "control_type": "sector_best_practice",
+          "recommendation": {
+            "ro": "Remediere pentru Continuitate si rezilienta 2",
+            "en": "Remediation for Business Continuity and Resilience 2"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "Medium",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "business_continuity",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "business_continuity_key_2",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "business_continuity_03",
+          "text": {
+            "ro": "Continuitate si rezilienta intrebare 3?",
+            "en": "Business Continuity and Resilience question 3?"
+          },
+          "answer_type": "score",
+          "weight": 7,
+          "risk": "Medium",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Continuitate si rezilienta 3",
+            "en": "Remediation for Business Continuity and Resilience 3"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P2",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "business_continuity",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "business_continuity_key_3",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "business_continuity_04",
+          "text": {
+            "ro": "Continuitate si rezilienta intrebare 4?",
+            "en": "Business Continuity and Resilience question 4?"
+          },
+          "answer_type": "score",
+          "weight": 10,
+          "risk": "High",
+          "control_type": "mandatory_nis2",
+          "recommendation": {
+            "ro": "Remediere pentru Continuitate si rezilienta 4",
+            "en": "Remediation for Business Continuity and Resilience 4"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P1",
+          "effort": "High",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "business_continuity",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "business_continuity_key_4",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        },
+        {
+          "id": "business_continuity_05",
+          "text": {
+            "ro": "Continuitate si rezilienta intrebare 5?",
+            "en": "Business Continuity and Resilience question 5?"
+          },
+          "answer_type": "score",
+          "weight": 9,
+          "risk": "Low",
+          "control_type": "advanced_maturity",
+          "recommendation": {
+            "ro": "Remediere pentru Continuitate si rezilienta 5",
+            "en": "Remediation for Business Continuity and Resilience 5"
+          },
+          "business_impact": "High",
+          "remediation_priority": "P3",
+          "effort": "Low",
+          "default_owner_role": "CISO",
+          "applies_to": [
+            "IT",
+            "Corporate"
+          ],
+          "scope": [
+            "Corporate"
+          ],
+          "control_family": "business_continuity",
+          "source_frameworks": [
+            "NIS2",
+            "ISO 27001",
+            "NIST CSF"
+          ],
+          "recommendation_key": "business_continuity_key_5",
+          "evidence_examples": {
+            "ro": [
+              "Documentatie",
+              "Raport"
+            ],
+            "en": [
+              "Documentation",
+              "Report"
+            ]
+          },
+          "expected_artifacts": {
+            "ro": [
+              "Politica",
+              "Procedura"
+            ],
+            "en": [
+              "Policy",
+              "Procedure"
+            ]
+          },
+          "iso27001": [
+            "5.1"
+          ],
+          "nist_csf": [
+            "GV.OC-01"
+          ],
+          "cis_control": [
+            "1.1"
+          ],
+          "nis2": [
+            "Risk-management measures"
+          ],
+          "nis2_article": [
+            "Art. 21"
+          ]
+        }
+      ]
+    }
+  ]
+}
